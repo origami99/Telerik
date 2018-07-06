@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biggest Prime Number_v2", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings - Challenge 01", "Other\strings - Challenge 01\strings - Challenge 01.csproj", "{3F12317B-731C-4B20-B2BC-DABDEBC88C24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{09527962-F123-432F-93DE-AE7A48E0CB3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subset of Sum S", "Arrays\Subset of Sum S\Subset of Sum S.csproj", "{A5C83269-72C0-414C-B9AB-A936FDBA683B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,10 @@ Global
 		{3F12317B-731C-4B20-B2BC-DABDEBC88C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F12317B-731C-4B20-B2BC-DABDEBC88C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F12317B-731C-4B20-B2BC-DABDEBC88C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C83269-72C0-414C-B9AB-A936FDBA683B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C83269-72C0-414C-B9AB-A936FDBA683B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C83269-72C0-414C-B9AB-A936FDBA683B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C83269-72C0-414C-B9AB-A936FDBA683B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +123,8 @@ Global
 		{43E7C34B-7525-43B3-9D14-B19D3999D150} = {4FD16D89-4378-4DED-9FAD-44D4DA044016}
 		{D56BDEC1-422C-4072-A4B2-6423FD63EF8E} = {81D10C51-28F9-417D-A6DD-9A83DA5F5E70}
 		{EC7126DC-1CC6-49F7-A090-F2B85454C5E0} = {81D10C51-28F9-417D-A6DD-9A83DA5F5E70}
+		{3F12317B-731C-4B20-B2BC-DABDEBC88C24} = {09527962-F123-432F-93DE-AE7A48E0CB3D}
+		{A5C83269-72C0-414C-B9AB-A936FDBA683B} = {4FD16D89-4378-4DED-9FAD-44D4DA044016}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE2B4C8E-5282-4ABB-AD20-D233B56464DF}
