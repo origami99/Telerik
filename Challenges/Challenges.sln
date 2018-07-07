@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Other\Testing\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spell Caster", "Arrays\Spell Caster\Spell Caster.csproj", "{015EB1D1-1D8F-4B81-935B-DD6E00725A69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symmetric Arrays", "Arrays\Symmetric Arrays\Symmetric Arrays.csproj", "{953E3CE3-6856-4696-A2C6-86E213BFEB09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{015EB1D1-1D8F-4B81-935B-DD6E00725A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{015EB1D1-1D8F-4B81-935B-DD6E00725A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{015EB1D1-1D8F-4B81-935B-DD6E00725A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953E3CE3-6856-4696-A2C6-86E213BFEB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953E3CE3-6856-4696-A2C6-86E213BFEB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953E3CE3-6856-4696-A2C6-86E213BFEB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953E3CE3-6856-4696-A2C6-86E213BFEB09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +145,7 @@ Global
 		{A5C83269-72C0-414C-B9AB-A936FDBA683B} = {4FD16D89-4378-4DED-9FAD-44D4DA044016}
 		{EEDE8025-FD35-4683-B965-64C74383DEA3} = {09527962-F123-432F-93DE-AE7A48E0CB3D}
 		{015EB1D1-1D8F-4B81-935B-DD6E00725A69} = {4FD16D89-4378-4DED-9FAD-44D4DA044016}
+		{953E3CE3-6856-4696-A2C6-86E213BFEB09} = {4FD16D89-4378-4DED-9FAD-44D4DA044016}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE2B4C8E-5282-4ABB-AD20-D233B56464DF}
