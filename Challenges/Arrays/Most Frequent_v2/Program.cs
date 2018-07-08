@@ -8,13 +8,13 @@ class Program
     {
         int n = int.Parse(Console.ReadLine());
 
-        List<string> list = new List<string>();
+        List<int> list = new List<int>();
         for (int i = 0; i < n; i++)
         {
-            list.Add(Console.ReadLine());
+            list.Add(int.Parse(Console.ReadLine()));
         }
 
-        KeyValuePair<string, int> result = list.OrderBy(x => x)
+        KeyValuePair<int, int> result = list.OrderBy(x => x)
             .GroupBy(x => x)
             .ToDictionary(x => x.Key, y => y.Count())
             .OrderByDescending(x => x.Value)
