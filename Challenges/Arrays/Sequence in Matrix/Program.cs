@@ -6,6 +6,8 @@ class Program
 {
     static void Main()
     {
+        // TODO
+
         int[] size = Console.ReadLine().Split().Select(int.Parse).ToArray();
         int r = size[0];
         int c = size[1];
