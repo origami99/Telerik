@@ -10,7 +10,7 @@ class Program
         int[] nums = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
         bool[,] solution = new bool[nums.Length + 1, sum + 1];
-
+        
         for (int i = 1; i <= sum; i++)
         {
             solution[0, i] = false;
