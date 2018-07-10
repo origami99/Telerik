@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        string text = "git is a <<version control>> system for tracking changes in <<computer files>> and coordinating work in those files among multiple people";
+        string text = Console.ReadLine();
 
         while (text.Contains("<<") && text.Contains(">>"))
         {
