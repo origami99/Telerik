@@ -6,13 +6,16 @@ class Program
     {
         string text = Console.ReadLine();
 
-        while (text.Contains("<<") && text.Contains(">>"))
+        string openingTag = "<upcase>";
+        string closingTag = "</upcase>";
+
+        while (text.Contains(openingTag) && text.Contains(closingTag))
         {
-            int firstIndex = text.IndexOf("<<");
-            int lastIndex = text.IndexOf(">>") + 2;
+            int firstIndex = text.IndexOf(openingTag);
+            int lastIndex = text.IndexOf(closingTag) + closingTag.Length;
 
             string oldSubText = text.Substring(firstIndex, lastIndex - firstIndex);
-            string newSubText = oldSubText.Substring(2, oldSubText.Length - 4).ToUpper();
+            string newSubText = oldSubText.Substring(openingTag.Length, oldSubText.Length - (openingTag.Length + closingTag.Length)).ToUpper();
 
             text = text.Replace(oldSubText, newSubText);
         }
