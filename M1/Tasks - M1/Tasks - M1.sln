@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. String length", "02. St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Extract sentences", "02. Strings\06. Extract sentences\06. Extract sentences.csproj", "{BC48DB63-317A-4C6C-8730-C92857D77A66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Unicode characters", "02. Strings\07. Unicode characters\07. Unicode characters.csproj", "{42AF5257-3A31-4A3D-AFDD-66057E106F05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{BC48DB63-317A-4C6C-8730-C92857D77A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC48DB63-317A-4C6C-8730-C92857D77A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC48DB63-317A-4C6C-8730-C92857D77A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AF5257-3A31-4A3D-AFDD-66057E106F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AF5257-3A31-4A3D-AFDD-66057E106F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AF5257-3A31-4A3D-AFDD-66057E106F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AF5257-3A31-4A3D-AFDD-66057E106F05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{080D5DB2-E57B-4235-A074-24EBD9381BCC} = {B653B59D-F3B7-4F55-80AA-9C38B87711AA}
 		{68C6F146-5479-4DC8-9FE4-ACBED12E696F} = {B653B59D-F3B7-4F55-80AA-9C38B87711AA}
 		{BC48DB63-317A-4C6C-8730-C92857D77A66} = {B653B59D-F3B7-4F55-80AA-9C38B87711AA}
+		{42AF5257-3A31-4A3D-AFDD-66057E106F05} = {B653B59D-F3B7-4F55-80AA-9C38B87711AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D690F45-F195-4173-B0B9-46D1BBCA8EA8}
