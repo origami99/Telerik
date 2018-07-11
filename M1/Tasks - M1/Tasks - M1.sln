@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.  Reverse sentence", "02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Date difference", "02. Strings\11. Date difference\11. Date difference.csproj", "{F6381AC6-5A68-4401-A005-27B0C6559461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Replace tags", "02. Strings\10. Replace tags\10. Replace tags.csproj", "{CBD84D26-9B5C-4859-A926-A30D61B9CDD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{F6381AC6-5A68-4401-A005-27B0C6559461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6381AC6-5A68-4401-A005-27B0C6559461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6381AC6-5A68-4401-A005-27B0C6559461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD84D26-9B5C-4859-A926-A30D61B9CDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD84D26-9B5C-4859-A926-A30D61B9CDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD84D26-9B5C-4859-A926-A30D61B9CDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD84D26-9B5C-4859-A926-A30D61B9CDD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,6 +183,7 @@ Global
 		{4F9F5F88-3814-4E19-905B-B3DC62745D57} = {B653B59D-F3B7-4F55-80AA-9C38B87711AA}
 		{059A0931-8E5A-4287-92D9-3FDBACE498DA} = {B653B59D-F3B7-4F55-80AA-9C38B87711AA}
 		{F6381AC6-5A68-4401-A005-27B0C6559461} = {B653B59D-F3B7-4F55-80AA-9C38B87711AA}
+		{CBD84D26-9B5C-4859-A926-A30D61B9CDD7} = {B653B59D-F3B7-4F55-80AA-9C38B87711AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D690F45-F195-4173-B0B9-46D1BBCA8EA8}
