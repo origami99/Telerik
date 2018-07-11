@@ -16,7 +16,7 @@ class Program
         }
 
         int counter = 1;
-        for (int i = 0; i < n; i++) // !IsMatrixFull(matrix)
+        for (int i = 0; !IsMatrixFull(matrix); i++) // i < n
         {
             for (int j = i; j < n - i; j++)
             {
@@ -51,8 +51,8 @@ class Program
         // end: 11:27
     }
 
-    //private static bool IsMatrixFull(int[][] matrix)
-    //{
-    //    return matrix.All(x => x.Count(n => n == 0) == 0);
-    //}
+    private static bool IsMatrixFull(int[][] matrix)
+    {
+        return matrix.All(x => x.Count(n => n == 0) == 0);
+    }
 }
