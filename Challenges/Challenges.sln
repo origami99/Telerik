@@ -49,7 +49,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Array", "Arrays\Rev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numbers From 1 to N", "Loops\Numbers From 1 to N\Numbers From 1 to N.csproj", "{D7ABDC45-4E95-4E0F-A1D7-A39BA28319B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "(TODO) Sequence in Matrix", "Arrays\Sequence in Matrix\(TODO) Sequence in Matrix.csproj", "{0DE8BD6E-F7C9-4CF4-AEAA-0D2C769E56CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sequence in Matrix", "Arrays\Sequence in Matrix\Sequence in Matrix.csproj", "{0DE8BD6E-F7C9-4CF4-AEAA-0D2C769E56CC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing", "Other\Testing\Testing.csproj", "{1F887CD6-1C5A-436B-9C5E-19F7585CEE97}"
 EndProject
@@ -63,7 +63,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Most Frequent_v5", "Arrays\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conditions", "Conditions", "{812C6838-CEB8-4FCE-B881-232DDBBA4FF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Three Numbers", "Conditions\Sort Three Numbers\Sort Three Numbers.csproj", "{43F6E4A0-21A4-4B2A-8EFF-CFB2404C2C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort Three Numbers", "Conditions\Sort Three Numbers\Sort Three Numbers.csproj", "{43F6E4A0-21A4-4B2A-8EFF-CFB2404C2C55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
