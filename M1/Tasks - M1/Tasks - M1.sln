@@ -69,6 +69,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Sequence in matrix", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Square root", "03. Exception Handling\01. Square root\01. Square root.csproj", "{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Enter numbers", "03. Exception Handling\02. Enter numbers\02. Enter numbers.csproj", "{A87B47D5-11E7-4731-8219-20A85BC9C4A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +189,10 @@ Global
 		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87B47D5-11E7-4731-8219-20A85BC9C4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87B47D5-11E7-4731-8219-20A85BC9C4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87B47D5-11E7-4731-8219-20A85BC9C4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87B47D5-11E7-4731-8219-20A85BC9C4A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -219,6 +225,7 @@ Global
 		{E0634866-EC4D-48A3-9C91-EFBFF08AD1C6} = {187068B8-0D48-4C8B-AA46-20C561C95825}
 		{810823E6-F722-46F4-AC25-6967B05D9549} = {187068B8-0D48-4C8B-AA46-20C561C95825}
 		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF} = {5D709F5D-B28A-44B7-9074-EC916908D37C}
+		{A87B47D5-11E7-4731-8219-20A85BC9C4A8} = {5D709F5D-B28A-44B7-9074-EC916908D37C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D690F45-F195-4173-B0B9-46D1BBCA8EA8}
