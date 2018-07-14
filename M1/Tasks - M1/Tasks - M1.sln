@@ -31,41 +31,43 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Prime Numbers", "01. Ar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Maximal Sum", "01. Arrays\06. Maximal Sum\06. Maximal Sum.csproj", "{256B4B3A-B92B-41F5-8C6E-E26B8D482151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse string_v2", "02. Strings\01. Reverse string_v2\01. Reverse string_v2.csproj", "{23A37DCD-41FD-4CD4-BC0E-108DE5D1F0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse string_v2", "02. Strings\01. Reverse string_v2\01. Reverse string_v2.csproj", "{23A37DCD-41FD-4CD4-BC0E-108DE5D1F0CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse string", "02. Strings\01. Reverse string\01. Reverse string.csproj", "{FD01F711-2109-44AE-A272-D4080955E31E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse string", "02. Strings\01. Reverse string\01. Reverse string.csproj", "{FD01F711-2109-44AE-A272-D4080955E31E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Correct Brackets", "02. Strings\02. Correct Brackets\02. Correct Brackets.csproj", "{66A20B54-5E33-483F-AC28-6C2ABD4642AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Correct Brackets", "02. Strings\02. Correct Brackets\02. Correct Brackets.csproj", "{66A20B54-5E33-483F-AC28-6C2ABD4642AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Sub-string in text", "02. Strings\03. Sub-string in text\03. Sub-string in text.csproj", "{31F9E878-5845-4A1F-BD09-D41DF8D326E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Sub-string in text", "02. Strings\03. Sub-string in text\03. Sub-string in text.csproj", "{31F9E878-5845-4A1F-BD09-D41DF8D326E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Multidimensional Arrays", "01. Multidimensional Arrays", "{187068B8-0D48-4C8B-AA46-20C561C95825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{CE90B92B-06E6-4D1E-8EE9-1A32777CACA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{CE90B92B-06E6-4D1E-8EE9-1A32777CACA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Parse tags", "02. Strings\04. Parse tags\04. Parse tags.csproj", "{080D5DB2-E57B-4235-A074-24EBD9381BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Parse tags", "02. Strings\04. Parse tags\04. Parse tags.csproj", "{080D5DB2-E57B-4235-A074-24EBD9381BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. String length", "02. Strings\05. String length\05. String length.csproj", "{68C6F146-5479-4DC8-9FE4-ACBED12E696F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. String length", "02. Strings\05. String length\05. String length.csproj", "{68C6F146-5479-4DC8-9FE4-ACBED12E696F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Extract sentences", "02. Strings\06. Extract sentences\06. Extract sentences.csproj", "{BC48DB63-317A-4C6C-8730-C92857D77A66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Extract sentences", "02. Strings\06. Extract sentences\06. Extract sentences.csproj", "{BC48DB63-317A-4C6C-8730-C92857D77A66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Unicode characters", "02. Strings\07. Unicode characters\07. Unicode characters.csproj", "{42AF5257-3A31-4A3D-AFDD-66057E106F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Unicode characters", "02. Strings\07. Unicode characters\07. Unicode characters.csproj", "{42AF5257-3A31-4A3D-AFDD-66057E106F05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Parse URL", "02. Strings\08. Parse URL\08. Parse URL.csproj", "{4F9F5F88-3814-4E19-905B-B3DC62745D57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Parse URL", "02. Strings\08. Parse URL\08. Parse URL.csproj", "{4F9F5F88-3814-4E19-905B-B3DC62745D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.  Reverse sentence", "02. Strings\09.  Reverse sentence\09.  Reverse sentence.csproj", "{059A0931-8E5A-4287-92D9-3FDBACE498DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.  Reverse sentence", "02. Strings\09.  Reverse sentence\09.  Reverse sentence.csproj", "{059A0931-8E5A-4287-92D9-3FDBACE498DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Date difference", "02. Strings\11. Date difference\11. Date difference.csproj", "{F6381AC6-5A68-4401-A005-27B0C6559461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Date difference", "02. Strings\11. Date difference\11. Date difference.csproj", "{F6381AC6-5A68-4401-A005-27B0C6559461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Replace tags", "02. Strings\10. Replace tags\10. Replace tags.csproj", "{CBD84D26-9B5C-4859-A926-A30D61B9CDD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Replace tags", "02. Strings\10. Replace tags\10. Replace tags.csproj", "{CBD84D26-9B5C-4859-A926-A30D61B9CDD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Extract e-mails", "02. Strings\12. Extract e-mails\12. Extract e-mails.csproj", "{3E5A6139-81BA-409D-9275-5C9B7F46B46E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12. Extract e-mails", "02. Strings\12. Extract e-mails\12. Extract e-mails.csproj", "{3E5A6139-81BA-409D-9275-5C9B7F46B46E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Fill the matrix", "01. Multidimensional Arrays\01. Fill the matrix\01. Fill the matrix.csproj", "{B3084FEC-B928-4968-958C-C7C2826F361E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Fill the matrix", "01. Multidimensional Arrays\01. Fill the matrix\01. Fill the matrix.csproj", "{B3084FEC-B928-4968-958C-C7C2826F361E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Maximal sum", "01. Multidimensional Arrays\02. Maximal sum\02. Maximal sum.csproj", "{E0634866-EC4D-48A3-9C91-EFBFF08AD1C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Maximal sum", "01. Multidimensional Arrays\02. Maximal sum\02. Maximal sum.csproj", "{E0634866-EC4D-48A3-9C91-EFBFF08AD1C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Sequence in matrix", "01. Multidimensional Arrays\03. Sequence in matrix\03. Sequence in matrix.csproj", "{810823E6-F722-46F4-AC25-6967B05D9549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Sequence in matrix", "01. Multidimensional Arrays\03. Sequence in matrix\03. Sequence in matrix.csproj", "{810823E6-F722-46F4-AC25-6967B05D9549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Square root", "03. Exception Handling\01. Square root\01. Square root.csproj", "{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +183,10 @@ Global
 		{810823E6-F722-46F4-AC25-6967B05D9549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{810823E6-F722-46F4-AC25-6967B05D9549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{810823E6-F722-46F4-AC25-6967B05D9549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -212,6 +218,7 @@ Global
 		{B3084FEC-B928-4968-958C-C7C2826F361E} = {187068B8-0D48-4C8B-AA46-20C561C95825}
 		{E0634866-EC4D-48A3-9C91-EFBFF08AD1C6} = {187068B8-0D48-4C8B-AA46-20C561C95825}
 		{810823E6-F722-46F4-AC25-6967B05D9549} = {187068B8-0D48-4C8B-AA46-20C561C95825}
+		{13D52B46-49B2-46EF-984E-5CD9C3DDCBDF} = {5D709F5D-B28A-44B7-9074-EC916908D37C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D690F45-F195-4173-B0B9-46D1BBCA8EA8}
