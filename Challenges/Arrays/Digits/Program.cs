@@ -6,15 +6,6 @@ public class Digits
     public const int ROW_LEN = 5;
     public const int COL_LEN = 3;
 
-    private static readonly int[,] Zero =  
-    {
-        { 1, 1, 1 }, 
-        { 1, 0, 1 }, 
-        { 1, 0, 1 }, 
-        { 1, 0, 1 }, 
-        { 1, 1, 1 }
-    };
-
     private static readonly int[,] One = 
     {
         { 0, 0, 1 },
@@ -98,7 +89,7 @@ public class Digits
 
     public static readonly int[][,] Patterns = 
     {
-        Zero, One, Two, Three, Four, Five, Six, Seven, Eight, Nine
+        One, Two, Three, Four, Five, Six, Seven, Eight, Nine
     };
 }
 
@@ -137,7 +128,9 @@ class Program
 
     private static bool IsThereDigit(int num, int row, int col)
     {
-        int[,] matrixDigit = Digits.Patterns[num];
+        if (num == 0) { return true; }
+
+        int[,] matrixDigit = Digits.Patterns[num - 1];
 
         for (int digitRow = 0; digitRow < Digits.ROW_LEN; digitRow++)
         {
