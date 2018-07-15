@@ -96,7 +96,6 @@ class Program
 
     private static int GetMaxOccurs(string[] arr)
     {
-
         return arr.Select((num, index) => new { Value = num, Index = index })
             .OrderBy(x => x.Value)
             .Select((n, i) => new { n.Value, Diff = i - n.Index })

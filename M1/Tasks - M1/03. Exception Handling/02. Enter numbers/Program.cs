@@ -9,7 +9,7 @@ class Program
 
     private static void ReadNumber(int start, int end)
     {
-        int prevNum = 1;
+        int prevNum = start;
         for (int i = 0; i < 10; i++)
         {
             // without try-catch block the behavior will be the same
@@ -18,14 +18,22 @@ class Program
             {
                 num = int.Parse(Console.ReadLine());
             }
-            catch (Exception)
+            catch (ArgumentNullException)
             {
-                throw;
+                throw new ArgumentNullException(nameof(num));
+            }
+            catch (FormatException)
+            {
+                throw new FormatException(nameof(num));
+            }
+            catch (OverflowException)
+            {
+                throw new OverflowException(nameof(num));
             }
 
-            if (num <= prevNum || num >= 100)
+            if (num <= prevNum || num >= end)
             {
-                throw new ArgumentOutOfRangeException();
+                throw new ArgumentOutOfRangeException(nameof(num));
             }
 
             prevNum = num;
