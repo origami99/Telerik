@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Index of letters", "01.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Prime Numbers", "01. Arrays\10. Prime Numbers\10. Prime Numbers.csproj", "{9ABC97E9-1520-4B78-9A8C-B4157E7D3485}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Maximal Sum", "01. Arrays\06. Maximal Sum\06. Maximal Sum.csproj", "{256B4B3A-B92B-41F5-8C6E-E26B8D482151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Maximal Sum (TODO)", "01. Arrays\06. Maximal Sum\06. Maximal Sum (TODO).csproj", "{256B4B3A-B92B-41F5-8C6E-E26B8D482151}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse string_v2", "02. Strings\01. Reverse string_v2\01. Reverse string_v2.csproj", "{23A37DCD-41FD-4CD4-BC0E-108DE5D1F0CD}"
 EndProject
@@ -71,7 +71,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Square root", "03. Exce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Enter numbers", "03. Exception Handling\02. Enter numbers\02. Enter numbers.csproj", "{A87B47D5-11E7-4731-8219-20A85BC9C4A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Read file contents", "03. Exception Handling\03. Read file contents\03. Read file contents.csproj", "{95956239-07CC-41A9-9486-CC33415F2528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Read file contents", "03. Exception Handling\03. Read file contents\03. Read file contents.csproj", "{95956239-07CC-41A9-9486-CC33415F2528}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
