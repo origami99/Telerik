@@ -73,11 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digits_v2", "Arrays\Digits_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Numeric Systems", "Numeric Systems", "{5CA2FC33-2426-42A8-9FE2-B3E7DFA63F74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCD", "Numeral Systems\GCD\GCD.csproj", "{14086DA8-562C-4855-BE30-80BB78EFCEC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCD", "Numeral Systems\GCD\GCD.csproj", "{14086DA8-562C-4855-BE30-80BB78EFCEC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N Factorial", "Numeral Systems\N Factorial\N Factorial.csproj", "{43C8A88E-784F-4DD8-B5FE-567280C6F451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N Factorial", "Numeral Systems\N Factorial\N Factorial.csproj", "{43C8A88E-784F-4DD8-B5FE-567280C6F451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Digits Count", "Numeral Systems\Binary Digits Count\Binary Digits Count.csproj", "{45AC5B46-80F3-4248-B8AE-91432A86928F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary Digits Count", "Numeral Systems\Binary Digits Count\Binary Digits Count.csproj", "{45AC5B46-80F3-4248-B8AE-91432A86928F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max Sum of Subsequence", "Arrays\Max Sum of Subsequence\Max Sum of Subsequence.csproj", "{398AD93F-7E87-4582-84B9-E195ED04A6D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -619,6 +621,22 @@ Global
 		{45AC5B46-80F3-4248-B8AE-91432A86928F}.Release|x64.Build.0 = Release|Any CPU
 		{45AC5B46-80F3-4248-B8AE-91432A86928F}.Release|x86.ActiveCfg = Release|Any CPU
 		{45AC5B46-80F3-4248-B8AE-91432A86928F}.Release|x86.Build.0 = Release|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Debug|ARM.Build.0 = Debug|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Debug|x64.Build.0 = Debug|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Debug|x86.Build.0 = Debug|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|ARM.ActiveCfg = Release|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|ARM.Build.0 = Release|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|x64.ActiveCfg = Release|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|x64.Build.0 = Release|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -657,6 +675,7 @@ Global
 		{14086DA8-562C-4855-BE30-80BB78EFCEC4} = {5CA2FC33-2426-42A8-9FE2-B3E7DFA63F74}
 		{43C8A88E-784F-4DD8-B5FE-567280C6F451} = {5CA2FC33-2426-42A8-9FE2-B3E7DFA63F74}
 		{45AC5B46-80F3-4248-B8AE-91432A86928F} = {5CA2FC33-2426-42A8-9FE2-B3E7DFA63F74}
+		{398AD93F-7E87-4582-84B9-E195ED04A6D5} = {4FD16D89-4378-4DED-9FAD-44D4DA044016}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE2B4C8E-5282-4ABB-AD20-D233B56464DF}
