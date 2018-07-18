@@ -35,6 +35,6 @@ public class Program
         }
     }
 
-    private static void PrintBestSum() =>
+    private static void PrintBestSum() => 
         Console.WriteLine(bestSum);
 }

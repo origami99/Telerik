@@ -81,6 +81,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Binary Digits Count", "Nume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max Sum of Subsequence", "Arrays\Max Sum of Subsequence\Max Sum of Subsequence.csproj", "{398AD93F-7E87-4582-84B9-E195ED04A6D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guess The Date", "Conditions\Guess The Date\Guess The Date.csproj", "{82C4E844-FFF2-494A-A604-20812C7C34F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -637,6 +639,22 @@ Global
 		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|x64.Build.0 = Release|Any CPU
 		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|x86.ActiveCfg = Release|Any CPU
 		{398AD93F-7E87-4582-84B9-E195ED04A6D5}.Release|x86.Build.0 = Release|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Debug|ARM.Build.0 = Debug|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Debug|x64.Build.0 = Debug|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Debug|x86.Build.0 = Debug|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Release|ARM.ActiveCfg = Release|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Release|ARM.Build.0 = Release|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Release|x64.ActiveCfg = Release|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Release|x64.Build.0 = Release|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Release|x86.ActiveCfg = Release|Any CPU
+		{82C4E844-FFF2-494A-A604-20812C7C34F6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -676,6 +694,7 @@ Global
 		{43C8A88E-784F-4DD8-B5FE-567280C6F451} = {5CA2FC33-2426-42A8-9FE2-B3E7DFA63F74}
 		{45AC5B46-80F3-4248-B8AE-91432A86928F} = {5CA2FC33-2426-42A8-9FE2-B3E7DFA63F74}
 		{398AD93F-7E87-4582-84B9-E195ED04A6D5} = {4FD16D89-4378-4DED-9FAD-44D4DA044016}
+		{82C4E844-FFF2-494A-A604-20812C7C34F6} = {812C6838-CEB8-4FCE-B881-232DDBBA4FF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE2B4C8E-5282-4ABB-AD20-D233B56464DF}
