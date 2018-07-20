@@ -94,6 +94,6 @@ class GSM
 
     public override string ToString()
     {
-        return $"{manufacturer}; {model}; {price}; {owner}; Battery:{Battery.Model}, {Battery.HoursIdle}, {Battery.HoursTalk}; Display:{Display.Size}, {Display.NumberOfColors}";
+        return $"{manufacturer}; {model}; {price}; {owner}; Battery:{Battery.Model}, {Battery.HoursIdle}, {Battery.HoursTalk}; Display:{Display.Size}, {Display.NumberOfColors}.";
     }
 }
