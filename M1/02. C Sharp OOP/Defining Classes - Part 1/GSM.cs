@@ -6,6 +6,9 @@ class GSM
     private string manufacturer = null;
     private decimal price;
     private string owner = null;
+    private static readonly GSM iPhone4S = new GSM("iPhone 4s", "Apple", 200, "Kifla",
+        new Battery("Dzhan-Min", 40, 8, BatteryType.Li_Ion),
+        new Display(3, 16000000));
 
     public string Model
     {
@@ -71,6 +74,13 @@ class GSM
     }
     public Battery Battery { get; set; }
     public Display Display { get; set; }
+    public GSM IPhone4S
+    {
+        get
+        {
+            return IPhone4S;
+        }
+    }
 
     public GSM(string model, string manufacturer)
     {

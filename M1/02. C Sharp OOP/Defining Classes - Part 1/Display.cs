@@ -2,10 +2,10 @@
 
 internal class Display
 {
-    private int size;
+    private double size;
     private int numberOfColors;
 
-    public int Size
+    public double Size
     {
         get
         {
@@ -34,12 +34,12 @@ internal class Display
         }
     }
 
-    public Display(int size)
+    public Display(double size)
     {
         this.Size = size;
     }
 
-    public Display(int size, int numbersofColors) : this(size)
+    public Display(double size, int numbersofColors) : this(size)
     {
         this.NumberOfColors = numbersofColors;
     }
