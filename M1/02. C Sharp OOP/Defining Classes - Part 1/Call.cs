@@ -1,15 +1,19 @@
-﻿using System;
-
-class Call
+﻿namespace Phone
 {
-    public string PhoneNumber { get; set; }
-    public DateTime Date { get; set; }
-    public TimeSpan Duration { get; set; }
 
-    public Call(string phoneNumber, DateTime date, TimeSpan duration)
+    using System;
+
+    class Call
     {
-        this.PhoneNumber = PhoneNumber;
-        this.Date = Date;
-        this.Duration = Duration;
+        public string PhoneNumber { get; set; }
+        public DateTime Date { get; set; }
+        public TimeSpan Duration { get; set; }
+
+        public Call(string phoneNumber, DateTime date, TimeSpan duration)
+        {
+            this.PhoneNumber = PhoneNumber;
+            this.Date = Date;
+            this.Duration = Duration;
+        }
     }
 }
