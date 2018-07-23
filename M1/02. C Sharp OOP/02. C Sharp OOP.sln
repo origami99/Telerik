@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Defining Classes - Part 1", "Defining Classes - Part 1\Defining Classes - Part 1.csproj", "{ACE25DEB-6C8C-44C9-8274-2936BD222E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phone", "Defining Classes - Part 1\Phone.csproj", "{ACE25DEB-6C8C-44C9-8274-2936BD222E91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

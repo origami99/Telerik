@@ -1,6 +1,7 @@
 ﻿namespace Phone.Parts
 {
     using System;
+    using System.Text;
 
     internal class Display
     {
@@ -44,6 +45,17 @@
         public Display(double size, int numbersofColors) : this(size)
         {
             this.NumberOfColors = numbersofColors;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder str = new StringBuilder();
+
+            str.AppendLine($"Display");
+            str.AppendLine($"   Size: {this.size}");
+            str.AppendLine($"   Numbers of colors: {this.numberOfColors}");
+
+            return str.ToString();
         }
     }
 }

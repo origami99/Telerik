@@ -3,6 +3,8 @@
     using System;
     using Phone.Parts;
     using System.Collections.Generic;
+    using System.Text;
+    using System.Linq;
 
     class GSM
     {
@@ -84,21 +86,16 @@
         {
             get
             {
-                return IPhone4S;
+                return GSM.iPhone4S;
             }
         }
         public List<Call> CallHistory
         {
             get
             {
-                return new List<Call>(callHistory);
-            }
-            set
-            {
-                callHistory = value;
+                return new List<Call>(this.callHistory);
             }
         }
-
 
         public GSM(string model, string manufacturer)
         {
@@ -122,28 +119,49 @@
 
         public void AddCall(Call call)
         {
-            CallHistory.Add(call);
+            this.callHistory.Add(call);
         }
 
         public void AddCall(string phoneNumber, DateTime date, TimeSpan duration)
         {
             Call call = new Call(phoneNumber, date, duration);
-            CallHistory.Add(call);
+            this.callHistory.Add(call);
         }
 
         public void DeleteCall(Call call)
         {
-            CallHistory.Remove(call);
+            this.callHistory.Remove(call);
         }
 
         public void ClearCallHistory()
         {
-            CallHistory.Clear();
+            this.callHistory.Clear();
+        }
+
+        public decimal TotalCallsPrice(decimal pricePerMin)
+        {
+            double totalMinutes = callHistory.Select(x => x.Duration.TotalMinutes).Sum();
+
+            decimal totalPrice = (decimal)totalMinutes * pricePerMin;
+
+            return totalPrice;
         }
 
         public override string ToString()
         {
-            return $"Phone: {manufacturer} {model}\nPrice: {price}\nOwner: {owner}"; //Battery:{Battery.Model}, {Battery.HoursIdle}, {Battery.HoursTalk}; Display:{Display.Size}, {Display.NumberOfColors}.";
+            StringBuilder str = new StringBuilder();
+
+            str.AppendLine($"Phone:");
+            str.AppendLine($"   Manufacturer: {manufacturer}");
+            str.AppendLine($"   Model: {model}");
+            str.AppendLine($"   Owner: {owner}");
+
+            if (Battery != null)
+                str.Append(this.Battery.ToString());
+            if (Display != null)
+                str.Append(this.Display.ToString());
+
+            return str.ToString();
         }
     }
 }

@@ -4,7 +4,8 @@
     {
         public static void Main()
         {
-            Phone.Test.GSMTest.Start();
+            //Phone.Test.GSMTest.Start();
+            Phone.Test.GSMCallHistoryTest.Start();
         }
     }
 }

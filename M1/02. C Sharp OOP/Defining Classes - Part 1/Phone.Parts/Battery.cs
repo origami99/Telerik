@@ -1,6 +1,7 @@
 ﻿namespace Phone.Parts
 {
     using System;
+    using System.Text;
 
     internal class Battery
     {
@@ -70,6 +71,18 @@
             : this(model, hoursIdle, hoursTalk)
         {
             this.Type = type;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder str = new StringBuilder();
+
+            str.AppendLine($"Battery");
+            str.AppendLine($"   Model: {this.Model}");
+            str.AppendLine($"   Hours idle: {this.HoursIdle}");
+            str.AppendLine($"   Hours talk: {this.HoursTalk}");
+
+            return str.ToString();
         }
     }
 }
