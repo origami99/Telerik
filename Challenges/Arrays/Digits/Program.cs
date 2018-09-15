@@ -98,7 +98,13 @@ class Program
     public static int sum = 0;
     public static int n = int.Parse(Console.ReadLine());
     public static int[][] matrix = new int[n][]
-        .Select(x => x = Console.ReadLine().Split().Select(int.Parse).ToArray())
+        .Select(x =>
+        {
+            return Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
+        })
         .ToArray();
 
     static void Main()
