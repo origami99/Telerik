@@ -10,7 +10,7 @@ class Program
     public static int foodsCount = 0;
     public static int deadsCount = 0;
 
-    public static bool isKittyalive = true;
+    public static bool isKittyAlive = true;
     public static int kittyPos = 0;
     public static int jumps = 0;
 
@@ -19,7 +19,7 @@ class Program
         while (true)
         {
             Collect();
-            if (!isKittyalive) return;
+            if (!isKittyAlive) return;
             if (jumps == moves.Length) break;
             AssignKittyPos();
             jumps++;
@@ -77,7 +77,7 @@ class Program
 
                 if (soulsCount < 0 || foodsCount < 0)
                 {
-                    isKittyalive = false;
+                    isKittyAlive = false;
                     PrintDead();
                 }
                 break;
